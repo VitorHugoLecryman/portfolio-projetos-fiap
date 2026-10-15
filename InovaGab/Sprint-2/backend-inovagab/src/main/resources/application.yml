@@ -1,0 +1,51 @@
+server:
+  address: 127.0.0.1
+  port: 8080
+  servlet:
+    encoding:
+      charset: UTF-8
+      force: true
+
+spring:
+  application:
+    name: inovagab-backend
+  data:
+    mongodb:
+      uri: ${MONGODB_URI:mongodb://127.0.0.1:27017/inovagab}
+      auto-index-creation: true
+  jackson:
+    default-property-inclusion: non_null
+
+app:
+  jwt:
+    secret: ${JWT_SECRET:inovagab-chave-local-de-desenvolvimento-com-tamanho-suficiente-256-bits}
+    expiration-minutes: ${JWT_EXPIRATION_MINUTES:480}
+  pontos:
+    envio-ideia: 10
+    ideia-aprovada: 50
+  seed:
+    enabled: ${SEED_ENABLED:true}
+    senha-padrao: ${SEED_SENHA:123456}
+  ia:
+    api-key: ${GEMINI_API_KEY:}
+    modelo: ${GEMINI_MODEL:gemini-3.6-flash}
+    base-url: ${GEMINI_BASE_URL:https://generativelanguage.googleapis.com}
+    timeout-segundos: ${GEMINI_TIMEOUT:30}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,loggers
+  endpoint:
+    health:
+      show-details: always
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+
+logging:
+  level:
+    br.com.fiap.inovagab: DEBUG
+    org.springframework.security: INFO

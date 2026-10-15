@@ -27,7 +27,7 @@ Ao clicar em qualquer pasta abaixo, o GitHub exibirá automaticamente a document
 
 | Projeto | Descrição da Solução | Tecnologias Utilizadas | Documentação e Links rápidos |
 | :--- | :--- | :--- | :--- |
-| **📱 InovaGAB** | Plataforma mobile gamificada de inovação para o Grupo Águia Branca, eliminando a burocracia no envio de ideias operacionais. | Android, Kotlin, Firebase, Figma | [📂 Ver Pasta](./InovaGab) / [🎥 Vídeo de Demonstração](https://www.youtube.com/watch?v=nfGvV9cl3aY) |
+| **📱 InovaGAB** | Plataforma mobile gamificada de inovação para o Grupo Águia Branca, eliminando a burocracia no envio de ideias operacionais. Na Sprint 2, ganhou backend próprio e avaliação de ideias por IA. | Android, Kotlin, Java, Spring Boot, MongoDB, JWT, IA (Google Gemini), Firebase, Figma | [📂 Ver Pasta](./InovaGab) / [🎥 Vídeo de Demonstração](https://www.youtube.com/watch?v=nfGvV9cl3aY) |
 | **🌍 BioMonitor** | Aplicativo focado em ciência cidadã e práticas ESG, engajando a comunidade no mapeamento e proteção da biodiversidade local. | Android Nativo (Kotlin), Práticas ESG | [📂 Ver Pasta](./BioMonitor) |
 | **🛰️ AstroSafra** | Solução Agritech para democratização de dados públicos de satélite (Copernicus/NASA), traduzindo informações complexas para pequenos produtores. | Figma (UI/UX), APIs de Satélite | [📂 Ver Pasta](./AstroSafra) / [🎨 Protótipo no Figma](https://www.figma.com/proto/q3CWp8l2dknAUvt36pnjin) |
 | **🏥 HealthTech-ESG** | Sistema de monitoramento automatizado de resíduos hospitalares focando no pilar ambiental e governança (ESG). | Oracle SQL, PL/SQL (Triggers e Procedures) | [📂 Ver Pasta](./Healthtech-ESG) |
